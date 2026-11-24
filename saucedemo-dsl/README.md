@@ -12,7 +12,6 @@ The project focuses on understandable, reusable end-to-end scenarios rather than
 - **Members:** NGUYEN Minh Huy (12223977)
 - **Course / group:** IHM Group 1
 
-If this is a pair assignment, add the second member here. Before submission, add the instructor's GitHub account `AlexDmr` to the repository through GitHub's repository access settings; this is an external repository permission and cannot be configured by the test code.
 
 ## 3. Application Under Test
 
@@ -314,9 +313,6 @@ AI assistance was used to scaffold the TypeScript project, model the DSL types a
 
 The coding agent was used as an implementation assistant in VS Code, not as the authority on expected behavior. The workflow was: (1) inspect the supplied tasks/actions/perceptions; (2) implement typed action and perception unions; (3) connect each action to Playwright-backed page objects in the interpreter; (4) connect perceptions to visible assertions; (5) express scenarios only with DSL factories; and (6) run TypeScript checks and the end-to-end suite. The team must review the changes, compare them with the task model, and validate any AI-generated assumptions before submission. No separate autonomous sub-agent was used for this implementation.
 
-### Human validation
-
-Before submission, team members should run the suite against SauceDemo, review every locator and expected value, verify that the scenarios match the assignment rubric, add all binôme names, invite `AlexDmr` on GitHub, and record any adjustments here. AI-generated code and documentation must be treated as proposals until validated against the running application.
 
 ## 9. Installation and Execution
 
